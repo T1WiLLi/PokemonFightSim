@@ -1,0 +1,303 @@
+Bulbasaur:45:49->Tackle:7:16->Vine Whip:12:36->Seed Bomb:18:54->Leer:0:6
+Ivysaur:60:62->Razor Leaf:15:45->Vine Whip:15:45->Seed Bomb:17:51->Toxic:0:8
+Venusaur:80:82->Solar Beam:20:60->Vine Whip:20:60->Seed Bomb:18:54->Synthesis:0:9
+Charmander:39:52->Ember:13:39->Scratch:12:36->Flamethrower:18:54->Growl:0:6
+Charmeleon:58:64->Flamethrower:16:48->Scratch:15:45->Fire Spin:15:45->Roar:0:9
+Charizard:78:84->Flamethrower:21:63->Dragon Claw:21:63->Fire Spin:20:60->Roar:0:12
+Squirtle:44:48->Water Gun:12:36->Tackle:12:36->Hydro Pump:18:54->Tail Whip:0:6
+Wartortle:59:63->Water Gun:15:45->Bubble Beam:15:45->Hydro Pump:18:54->Tail Whip:0:9
+Blastoise:79:83->Surf:20:60->Water Gun:20:60->Hydro Pump:18:54->Tail Whip:0:12
+Caterpie:45:40->Tackle:10:25->String Shot:10:25->Bug Bite:12:36->Harden:0:6
+Metapod:50:45->Tackle:10:25->String Shot:10:25->Harden:0:9
+Butterfree:60:60->Confusion:15:45->Gust:15:45->Bug Buzz:18:54->Stun Spore:0:9
+Weedle:40:45->Poison Sting:10:25->String Shot:10:25->Bug Bite:12:36->Harden:0:6
+Kakuna:45:50->Poison Sting:10:25->String Shot:10:25->Harden:0:9
+Beedrill:65:75->Poison Jab:18:54->Twineedle:20:60->Drill Run:20:60->Agility:0:12
+Pidgey:40:45->Tackle:10:25->Gust:10:25->Quick Attack:12:36->Sand Attack:0:6
+Pidgeotto:63:60->Wing Attack:15:45->Gust:15:45->Quick Attack:18:54->Sand Attack:0:9
+Pidgeot:83:83->Wing Attack:20:60->Hurricane:20:60->Quick Attack:18:54->Sand Attack:0:12
+Rattata:30:56->Tackle:10:25->Quick Attack:12:36->Hyper Fang:18:54->Tail Whip:0:6
+Raticate:55:81->Tackle:12:36->Quick Attack:15:45->Hyper Fang:20:60->Tail Whip:0:9
+Spearow:40:50->Peck:10:25->Quick Attack:10:25->Drill Peck:15:45->Leer:0:6
+Fearow:65:90->Peck:12:36->Drill Run:15:45->Drill Peck:18:54->Leer:0:9
+Ekans:35:52->Poison Sting:12:36->Bite:15:45->Acid:20:60->Glare:0:6
+Arbok:60:77->Poison Jab:15:45->Bite:18:54->Sludge Bomb:20:60->Glare:0:9
+Pikachu:35:55->Thunder Shock:10:25->Quick Attack:12:36->Thunderbolt:18:54->Tail Whip:0:6
+Raichu:60:80->Thunder Shock:15:45->Quick Attack:18:54->Thunderbolt:20:60->Tail Whip:0:9
+Sandshrew:50:60->Scratch:12:36->Dig:15:45->Rock Slide:20:60->Sand Attack:0:6
+Sandslash:75:75->Slash:15:45->Earthquake:18:54->Rock Slide:20:60->Sand Attack:0:9
+Nidoran♀:55:47->Tackle:10:25->Poison Sting:10:25->Bite:15:45->Tail Whip:0:6
+Nidorina:70:62->Tackle:12:36->Poison Sting:12:36->Bite:18:54->Tail Whip:0:9
+Nidoqueen:90:75->Scratch:15:45->Earthquake:20:60->Bite:18:54->Tail Whip:0:6
+Nidoran♂:46:40->Peck:10:25->Poison Sting:10:25->Bite:15:45->Tail Whip:0:6
+Nidorino:61:53->Horn Attack:12:36->Poison Sting:12:36->Bite:18:54->Tail Whip:0:9
+Nidoking:81:73->Thrash:15:45->Earthquake:20:60->Bite:18:54->Tail Whip:0:6
+Clefairy:70:70->Pound:12:36->Sing:12:36->Metronome:18:54->Minimize:0:6
+Clefable:95:95->Double Slap:15:45->Sing:15:45->Metronome:20:60->Minimize:0:9
+Vulpix:38:53->Ember:10:25->Quick Attack:10:25->Flamethrower:15:45->Tail Whip:0:6
+Ninetales:73:73->Flamethrower:15:45->Quick Attack:15:45->Fire Spin:18:54->Tail Whip:0:9
+Jigglypuff:115:115->Pound:15:45->Sing:15:45->Hyper Voice:20:60->Defense Curl:0:6
+Wigglytuff:140:140->Double Slap:18:54->Sing:18:54->Hyper Voice:20:60->Defense Curl:0:9
+Golbat:75:85->Leech Life:15:45->Wing Attack:15:45->Bite:20:60->Supersonic:0:9
+Oddish:45:55->Absorb:12:36->Acid:12:36->Petal Blizzard:18:54->Sweet Scent:0:6
+Gloom:60:70->Absorb:15:45->Acid:15:45->Petal Blizzard:20:60->Sweet Scent:0:9
+Vileplume:75:85->Petal Dance:15:45->Acid:15:45->Petal Blizzard:20:60->Sweet Scent:0:6
+Paras:35:45->Scratch:12:36->Leech Life:12:36->Poison Sting:18:54->Stun Spore:0:6
+Parasect:60:60->Scratch:15:45->Leech Life:15:45->Poison Sting:20:60->Stun Spore:0:9
+Venonat:60:70->Tackle:15:45->Confusion:15:45->Bug Buzz:20:60->Disable:0:6
+Venomoth:70:75->Gust:15:45->Confusion:15:45->Bug Buzz:20:60->Disable:0:9
+Diglett:10:55->Scratch:12:36->Dig:15:45->Rock Slide:20:60->Sand Attack:0:6
+Dugtrio:35:70->Slash:15:45->Earthquake:18:54->Rock Slide:20:60->Sand Attack:0:9
+Meowth:40:52->Scratch:12:36->Bite:12:36->Pay Day:18:54->Growl:0:6
+Persian:65:80->Scratch:15:45->Bite:15:45->Pay Day:20:60->Growl:0:9
+Psyduck:50:52->Scratch:12:36->Water Gun:12:36->Psychic:18:54->Tail Whip:0:6
+Golduck:80:82->Scratch:15:45->Water Gun:15:45->Psychic:20:60->Tail Whip:0:9
+Mankey:40:53->Karate Chop:12:36->Scratch:12:36->Low Kick:18:54->Leer:0:6
+Primeape:65:78->Karate Chop:15:45->Scratch:15:45->Low Kick:20:60->Leer:0:9
+Growlithe:55:70->Ember:15:45->Bite:15:45->Flamethrower:20:60->Roar:0:6
+Arcanine:90:95->Flamethrower:18:54->Bite:18:54->Fire Blast:20:60->Roar:0:9
+Poliwag:40:50->Bubble:12:36->Water Gun:12:36->Hydro Pump:18:54->Hypnosis:0:6
+Poliwhirl:65:65->Bubble Beam:15:45->Water Gun:15:45->Hydro Pump:20:60->Hypnosis:0:9
+Poliwrath:90:75->Submission:18:54->Water Gun:18:54->Hydro Pump:20:60->Hypnosis:0:6
+Abra:25:53->Confusion:15:45->Teleport:15:45->Psyshock:20:60->Disable:0:6
+Kadabra:40:61->Confusion:15:45->Teleport:15:45->Psyshock:20:60->Disable:0:9
+Alakazam:55:72->Psychic:18:54->Teleport:18:54->Psyshock:20:60->Disable:0:6
+Machop:70:63->Karate Chop:15:45->Low Kick:15:45->Cross Chop:20:60->Leer:0:9
+Machoke:80:73->Karate Chop:18:54->Low Kick:18:54->Cross Chop:20:60->Leer:0:6
+Machamp:90:83->Karate Chop:20:60->Low Kick:20:60->Cross Chop:20:60->Leer:0:9
+Bellsprout:50:50->Vine Whip:15:45->Acid:15:45->Petal Blizzard:20:60->Sweet Scent:0:6
+Weepinbell:65:65->Razor Leaf:15:45->Acid:15:45->Petal Blizzard:20:60->Sweet Scent:0:9
+Victreebel:80:80->Leaf Blade:18:54->Acid:18:54->Petal Blizzard:20:60->Sweet Scent:0:6
+Tentacool:40:50->Poison Sting:12:36->Bubble Beam:12:36->Hydro Pump:18:54->Barrier:0:6
+Tentacruel:80:80->Poison Jab:15:45->Bubble Beam:15:45->Hydro Pump:20:60->Barrier:0:9
+Geodude:40:50->Tackle:12:36->Rock Throw:12:36->Rock Slide:18:54->Harden:0:6
+Graveler:55:65->Rock Throw:15:45->Rock Slide:15:45->Earthquake:20:60->Harden:0:9
+Golem:80:80->Rock Throw:18:54->Rock Slide:18:54->Earthquake:20:60->Harden:0:6
+Ponyta:50:65->Ember:15:45->Tackle:15:45->Fire Blast:20:60->Tail Whip:0:6
+Rapidash:65:80->Ember:18:54->Tackle:18:54->Fire Blast:20:60->Tail Whip:0:9
+Slowpoke:90:70->Confusion:15:45->Water Gun:15:45->Psychic:20:60->Disable:0:6
+Slowbro:95:80->Confusion:18:54->Water Gun:18:54->Psychic:20:60->Disable:0:9
+Magnemite:25:53->Tackle:12:36->Spark:12:36->Thunderbolt:18:54->Supersonic:0:6
+Magneton:50:63->Spark:15:45->Shock Wave:15:45->Thunderbolt:20:60->Supersonic:0:9
+Farfetch'd:52:58->Peck:12:36->Slash:12:36->Aerial Ace:20:60->Leer:0:6
+Doduo:35:62->Peck:12:36->Quick Attack:12:36->Drill Peck:18:54->Growl:0:6
+Dodrio:60:82->Peck:15:45->Drill Run:15:45->Drill Peck:20:60->Growl:0:9
+Seel:65:65->Headbutt:15:45->Aqua Tail:15:45->Ice Beam:20:60->Growl:0:6
+Dewgong:90:90->Ice Shard:18:54->Aqua Tail:18:54->Ice Beam:20:60->Growl:0:9
+Grimer:80:65->Poison Jab:15:45->Mud Bomb:15:45->Sludge Bomb:20:60->Harden:0:6
+Muk:105:85->Poison Jab:18:54->Mud Bomb:18:54->Sludge Bomb:20:60->Harden:0:9
+Shellder:30:53->Tackle:12:36->Ice Shard:12:36->Aurora Beam:18:54->Withdraw:0:6
+Cloyster:50:63->Ice Shard:15:45->Aurora Beam:15:45->Hydro Pump:20:60->Withdraw:0:9
+Gastly:30:62->Lick:12:36->Shadow Punch:12:36->Night Shade:18:54->Hypnosis:0:6
+Haunter:45:70->Lick:15:45->Shadow Punch:15:45->Night Shade:20:60->Hypnosis:0:9
+Gengar:60:80->Shadow Claw:18:54->Shadow Punch:18:54->Shadow Ball:20:60->Hypnosis:0:6
+Onix:35:35->Rock Throw:12:36->Rock Slide:12:36->Earthquake:18:54->Harden:0:6
+Drowzee:60:73->Confusion:15:45->Pound:15:45->Psyshock:20:60->Disable:0:6
+Hypno:85:95->Confusion:18:54->Pound:18:54->Psyshock:20:60->Disable:0:9
+Krabby:30:52->Bubble:12:36->Vice Grip:12:36->Crabhammer:18:54->Leer:0:6
+Kingler:55:82->Bubble:15:45->Vice Grip:15:45->Crabhammer:20:60->Leer:0:9
+Voltorb:40:55->Tackle:12:36->Spark:12:36->Thunderbolt:18:54->Screech:0:6
+Electrode:60:80->Tackle:15:45->Spark:15:45->Thunderbolt:20:60->Screech:0:9
+Exeggcute:60:64->Barrage:15:45->Confusion:15:45->Egg Bomb:20:60->Hypnosis:0:6
+Exeggutor:95:99->Bullet Seed:18:54->Confusion:18:54->Egg Bomb:20:60->Hypnosis:0:9
+Cubone:50:50->Bone Club:15:45->Scratch:15:45->Earthquake:20:60->Leer:0:6
+Marowak:60:60->Bone Club:18:54->Scratch:18:54->Earthquake:20:60->Leer:0:9
+Hitmonlee:50:50->Double Kick:15:45->Low Kick:15:45->High Jump Kick:20:60->Meditate:0:6
+Hitmonchan:50:50->Comet Punch:15:45->Mach Punch:15:45->Sky Uppercut:20:60->Meditate:0:9
+Lickitung:90:75->Lick:15:45->Stomp:15:45->Hyper Beam:20:60->Defense Curl:0:6
+Koffing:40:68->Tackle:15:45->Smog:15:45->Sludge Bomb:20:60->Smokescreen:0:6
+Weezing:65:93->Tackle:18:54->Smog:18:54->Sludge Bomb:20:60->Smokescreen:0:9
+Rhyhorn:80:80->Horn Attack:18:54->Stomp:18:54->Earthquake:20:60->Tail Whip:0:6
+Rhydon:105:105->Horn Attack:20:60->Stomp:20:60->Earthquake:20:60->Tail Whip:0:9
+Chansey:250:250->Double Slap:18:54->Egg Bomb:18:54->Hyper Beam:20:60->Defense Curl:0:6
+Tangela:65:100->Vine Whip:15:45->Absorb:15:45->Power Whip:20:60->Bind:0:6
+Kangaskhan:105:105->Mega Punch:20:60->Comet Punch:20:60->Dizzy Punch:20:60->Tail Whip:0:9
+Horsea:30:50->Bubble:12:36->Water Gun:12:36->Hydro Pump:18:54->Leer:0:6
+Seadra:55:65->Bubble:15:45->Water Gun:15:45->Hydro Pump:20:60->Leer:0:9
+Goldeen:45:45->Peck:15:45->Horn Attack:15:45->Waterfall:20:60->Tail Whip:0:6
+Seaking:80:80->Peck:18:54->Horn Attack:18:54->Waterfall:20:60->Tail Whip:0:9
+Staryu:30:70->Tackle:15:45->Water Gun:15:45->Swift:20:60->Harden:0:6
+Starmie:60:85->Quick Attack:18:54->Water Gun:18:54->Swift:20:60->Harden:0:9
+Mr. Mime:40:65->Confusion:15:45->Psybeam:15:45->Psychic:20:60->Meditate:0:6
+Scyther:70:80->Wing Attack:15:45->Slash:15:45->X-Scissor:20:60->Leer:0:6
+Jynx:65:95->Pound:18:54->Ice Punch:18:54->Psychic:20:60->Lovely Kiss:0:6
+Electabuzz:65:85->Quick Attack:18:54->Thunder Shock:18:54->Thunderbolt:20:60->Leer:0:6
+Magmar:65:85->Ember:18:54->Smog:18:54->Fire Punch:20:60->Leer:0:6
+Pinsir:65:85->Vice Grip:18:54->X-Scissor:18:54->Guillotine:20:60->Leer:0:6
+Tauros:75:100->Tackle:20:60->Stomp:20:60->Take Down:20:60->Leer:0:6
+Magikarp:20:10->Splash:5:15->Tackle:5:15->Flail:15:45->Leer:0:6
+Gyarados:95:125->Bite:20:60->Dragon Rage:20:60->Hydro Pump:20:60->Leer:0:6
+Lapras:130:130->Water Gun:20:60->Ice Beam:20:60->Hydro Pump:20:60->Sing:0:6
+Ditto:48:48->Transform:12:36->Transform:12:36->Transform:12:36->Transform:0:6
+Eevee:55:55->Tackle:15:45->Swift:15:45->Quick Attack:20:60->Sand Attack:0:6
+Vaporeon:130:130->Water Gun:20:60->Aqua Tail:20:60->Hydro Pump:20:60->Sand Attack:0:6
+Jolteon:65:65->Thunder Shock:18:54->Thunder Fang:18:54->Thunderbolt:20:60->Sand Attack:0:6
+Flareon:65:65->Ember:18:54->Fire Fang:18:54->Flamethrower:20:60->Sand Attack:0:6
+Porygon:65:85->Tackle:18:54->Psybeam:18:54->Tri Attack:20:60->Conversion:0:6
+Omanyte:35:40->Water Gun:10:30->Mud Shot:10:30->Rock Slide:15:45->Withdraw:0:6
+Omastar:70:125->Water Gun:18:54->Mud Shot:18:54->Rock Slide:20:60->Withdraw:0:6
+Kabuto:30:40->Scratch:10:30->Mud Shot:10:30->Ancient Power:15:45->Leer:0:6
+Kabutops:60:115->Scratch:18:54->Mud Shot:18:54->Ancient Power:20:60->Leer:0:6
+Aerodactyl:80:135->Wing Attack:20:60->Bite:20:60->Ancient Power:20:60->Roar:0:6
+Snorlax:160:110->Lick:18:54->Body Slam:18:54->Hyper Beam:20:60->Amnesia:0:6
+Articuno:90:85->Ice Shard:18:54->Powder Snow:18:54->Blizzard:20:60->Hail:0:6
+Zapdos:90:90->Thunder Shock:20:60->Thunder Fang:20:60->Thunderbolt:20:60->Roar:0:6
+Moltres:90:90->Ember:20:60->Fire Fang:20:60->Flamethrower:20:60->Roar:0:6
+Dratini:41:64->Wrap:15:45->Dragon Breath:15:45->Dragon Rage:18:54->Leer:0:6
+Dragonair:61:84->Wrap:18:54->Dragon Breath:18:54->Dragon Rage:20:60->Leer:0:6
+Dragonite:91:134->Dragon Breath:20:60->Dragon Claw:20:60->Dragon Pulse:20:60->Leer:0:6
+Mewtwo:106:154->Confusion:20:60->Psycho Cut:20:60->Psychic:20:60->Amnesia:0:6
+Mew:100:100->Pound:10:25->Swift:15:35->Psychic:20:60->Amnesia:0:6
+
+-name
+Bulbasaur
+Ivysaur
+Venusaur
+Charmander
+Charmeleon
+Charizard
+Squirtle
+Wartortle
+Blastoise
+Caterpie
+Metapod
+Butterfree
+Weedle
+Kakuna
+Beedrill
+Pidgey
+Pidgeotto
+Pidgeot
+Rattata
+Raticate
+Spearow
+Fearow
+Ekans
+Arbok
+Pikachu
+Raichu
+Sandshrew
+Sandslash
+Nidoran♀
+Nidorina
+Nidoqueen
+Nidoran♂
+Nidorino
+Nidoking
+Clefairy
+Clefable
+Vulpix
+Ninetales
+Jigglypuff
+Wigglytuff
+Golbat
+Oddish
+Gloom
+Vileplume
+Paras
+Parasect
+Venonat
+Venomoth
+Diglett
+Dugtrio
+Meowth
+Persian
+Psyduck
+Golduck
+Mankey
+Primeape
+Growlithe
+Arcanine
+Poliwag
+Poliwhirl
+Poliwrath
+Abra
+Kadabra
+Alakazam
+Machop
+Machoke
+Machamp
+Bellsprout
+Weepinbell
+Victreebel
+Tentacool
+Tentacruel
+Geodude
+Graveler
+Golem
+Ponyta
+Rapidash
+Slowpoke
+Slowbro
+Magnemite
+Magneton
+Farfetch'd
+Doduo
+Dodrio
+Seel
+Dewgong
+Grimer
+Muk
+Shellder
+Cloyster
+Gastly
+Haunter
+Gengar
+Onix
+Drowzee
+Hypno
+Krabby
+Kingler
+Voltorb
+Electrode
+Exeggcute
+Exeggutor
+Cubone
+Marowak
+Hitmonlee
+Hitmonchan
+Lickitung
+Koffing
+Weezing
+Rhyhorn
+Rhydon
+Chansey
+Tangela
+Kangaskhan
+Horsea
+Seadra
+Goldeen
+Seaking
+Staryu
+Starmie
+Mr. Mime
+Scyther
+Jynx
+Electabuzz
+Magmar
+Pinsir
+Tauros
+Magikarp
+Gyarados
+Lapras
+Ditto
+Eevee
+Vaporeon
+Jolteon
+Flareon
+Porygon
+Omanyte
+Omastar
+Kabuto
+Kabutops
+Aerodactyl
+Snorlax
+Articuno
+Zapdos
+Moltres
+Dratini
+Dragonair
+Dragonite
+Mewtwo
+Mew
+-name
