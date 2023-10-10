@@ -69,7 +69,7 @@ public class Pokemon {
                     printPokemonInfo(userPokemon);
                     anythingsToContinue(scanner);
                 }
-                userPokemon = fightLoop(scanner, userPokemon, getPokemonData(pokemonFile, (int) (Math.random() * 150) + 1), MISS_STRIKE, CRIT_STRIKE, ESCAPE);
+                userPokemon = fightLoop(scanner, userPokemon, getPokemonData(pokemonFile, (int)(Math.random() * 149) + 1), MISS_STRIKE, CRIT_STRIKE, ESCAPE);
                 clearConsole();
                 if (Integer.parseInt(userPokemon[0][1]) > 0) {
                     gameStrike++;
@@ -601,13 +601,5 @@ public class Pokemon {
         } catch (Exception e) {
             System.out.println("Error playing audio: " + e.getMessage());
         }
-    }
-
-    static int returnInt(int x) {
-        return returnNewInt(x);
-    }
-
-    static int returnNewInt(int x) {
-        return x++;
     }
 }
