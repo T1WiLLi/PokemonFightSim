@@ -1,4 +1,6 @@
 import java.io.File;
+import java.io.FileReader;
+import java.io.LineNumberReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.InputMismatchException;
@@ -51,7 +53,10 @@ public class Pokemon {
                     case "NO", "N" -> {
                         hasChoosePokemon = true;
                     }
-                    default -> System.out.println("I think you tried to enter something that hasn't been recognized, please try again!");
+                    default -> {
+                        System.out.println("I think you tried to enter something that hasn't been recognized, please try again!");
+                        anythingsToContinue(scanner);
+                    }
                 }
             }
             clearConsole();
@@ -69,7 +74,7 @@ public class Pokemon {
                     printPokemonInfo(userPokemon);
                     anythingsToContinue(scanner);
                 }
-                userPokemon = fightLoop(scanner, userPokemon, getPokemonData(pokemonFile, (int)(Math.random() * 149) + 1), MISS_STRIKE, CRIT_STRIKE, ESCAPE);
+                userPokemon = fightLoop(scanner, userPokemon, getPokemonData(pokemonFile, (int)(Math.random() * getAmountOfPokemon(pokemonFile))), MISS_STRIKE, CRIT_STRIKE, ESCAPE);
                 clearConsole();
                 if (Integer.parseInt(userPokemon[0][1]) > 0) {
                     gameStrike++;
@@ -92,6 +97,7 @@ public class Pokemon {
                 System.exit(0);
             }
         } while (isPlaying);
+        scanner.close();
     }
     // ALL FUNCTIONAL GAME FUNCTIONS
 
@@ -117,7 +123,7 @@ public class Pokemon {
 
         boolean flee = false;
 
-        while (!isBattleOver(userPokemon, enemyPokemon) || !flee) {
+        while (isBattleOver(userPokemon, enemyPokemon) && !flee) {
             clearConsole();
             printHeading(userPokemon[0][0] + " VS " + enemyPokemon[0][0]);
 
@@ -163,7 +169,9 @@ public class Pokemon {
                 }   
             }
 
-            if (flee) {break;}
+            if (flee) {
+                break;
+            }
 
             if (Integer.parseInt(enemyPokemon[0][1]) <= 0) {
                 System.out.println("You defeated the enemy!");
@@ -221,7 +229,7 @@ public class Pokemon {
      * @return boolean - true or false
      */
     static boolean isBattleOver(String[][] userPokemon, String[][] enemyPokemon) {
-        return Integer.parseInt(userPokemon[0][1]) <= 0 || Integer.parseInt(enemyPokemon[0][1]) <= 0;
+        return Integer.parseInt(userPokemon[0][1]) > 0 && Integer.parseInt(enemyPokemon[0][1]) > 0;
     }
 
     /**
@@ -349,9 +357,9 @@ public class Pokemon {
                     System.out.print("\nPlease provide the index of the Pokemon you wish to have (press '0' to randomize!): ");
                     userIndex = scanner.nextInt();
                     if (userIndex == 0) {
-                        userIndex = (int)(Math.random() * 150) + 1;
+                        userIndex = (int)(Math.random() * getAmountOfPokemon(file)) + 1;
                         isIndexOkay = true;
-                    } else if (userIndex > 0 && userIndex < 151) {
+                    } else if (userIndex > 0 && userIndex < getAmountOfPokemon(file)) {
                         isIndexOkay = true;
                     } else {
                         System.out.println("Please enter a number between 1 and 150 inclusive!");
@@ -366,6 +374,27 @@ public class Pokemon {
         }
 
     // ALL FILE HANDLING FUNCTIONS
+
+
+    /**
+     * Provides greater scalability throughout the program by eliminating hard-coded values as for the pokemon amount.
+     * 
+     * @param file The file containing Pokemon names
+     * @return The number of lines before encountering the line containing "-name," or -1 if not found.
+     */
+
+    static long getAmountOfPokemon(File file) {
+        long lines = 0;
+        try (LineNumberReader lnr = new LineNumberReader(new FileReader(file))) {
+            while (!lnr.readLine().contentEquals("-name")) {
+                lines = lnr.getLineNumber();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            return -1;
+        }
+        return lines - 1;
+    }
 
 
     /**
@@ -471,6 +500,11 @@ public class Pokemon {
         }
     }
 
+    /**
+     * Clear x part of the console.
+     * 
+     * @param i the specified amount of line to be cleared.
+     */
     static void clearPartConsole(int i) {
         for (int j = 0; j < i; j++) {
             System.out.println();
@@ -592,8 +626,7 @@ public class Pokemon {
      * @param filePath The path to the audio file.
      */
     static void playAudio(String filePath) {
-        try {
-            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(filePath).getAbsoluteFile());
+        try (AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(filePath).getAbsoluteFile())) {
             Clip clip = AudioSystem.getClip();
             clip.open(audioInputStream);
             clip.loop(Clip.LOOP_CONTINUOUSLY);
